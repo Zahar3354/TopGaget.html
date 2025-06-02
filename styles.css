@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
- 
+ width: 100%;
+    height: auto;
     background:linear-gradient(to right, #34495e, #2e4053);
     margin: 0;
     padding: 20px;
@@ -432,23 +433,643 @@ display: block;
     transform: scale(1.05);
 }
 
+.offise_mouses{
+     font-size: 50px;
+    text-align: center;
+}
+.offise_mouse_card{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; 
+}
+.card_offise_mouse{
+  flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;    
+}
 
+.offise_mouse_img{
+         height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.offise_mouse-name{
+      font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.offise_mouseAll{
+    display: none;
+}
+.card_offise_mouse:hover {
+    transform: scale(1.05);
+}
 
+.game_headphones{
+    font-size: 50px;
+    text-align: center;
+}
 
+.game_headphones_card{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; 
+}
 
+.card_game_headphones{
+flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;    
+}
+.game_headphone_img{
+  height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.game_headphonesAll{
+     display: none;
+}
 
+.card_game_headphones:hover {
+    transform: scale(1.05);
+}
 
+.game_keyboards{
+    font-size: 50px;
+    text-align: center;
+}
 
+.game_keyboards_card
+{ display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; }
+.card_game_keyboard{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+.game_keyboard_img{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.game_keyboardsAll{
+    display: none;
+}
 
+.card_game_keyboard:hover {
+    transform: scale(1.05);
+}
 
+.microphones{
+    font-size: 50px;
+    text-align: center;
+}
 
+.microphone_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; 
+}
 
+.card_microphone{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+.microphone-image{
+   height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.microphoneAll{
+    display: none;
+}
+.card_microphone:hover {
+    transform: scale(1.05);
+}
 
+.mousepads{
+    font-size: 50px;
+    text-align: center;
+}
 
+.mousepad_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; 
+}
+.card_mousepad{
+     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+.mousepad-image{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
+.mousepadAll{
+    display: none;
+}
+.card_mousepad:hover {
+    transform: scale(1.05);
+}
 
+.monitors{
+    font-size: 50px;
+    text-align: center;
+}
+.monitors_card{
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; 
+}
+.card_monitor{
+     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+.monitor-image{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
+    .monitorsAll{
+    display: none;
+}
+.card_monitor:hover {
+    transform: scale(1.05);
+}
+
+.Tvs{
+    font-size: 50px;
+    text-align: center;
+}
+.Tv_card{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833;   
+}
+
+.card_Tv{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+
+.Tv_image{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TvAll{
+    display: none;
+}
+.card_Tv:hover {
+    transform: scale(1.05);
+}
+
+.Zvs{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Zv_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833;   
+}
+
+.card_Zv{
+  flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;    
+}
+
+.Zv_image{
+   height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.ZvAll{
+    display: none;
+}
+.card_Zv:hover {
+    transform: scale(1.05);
+}
+
+.routers{
+    font-size: 50px;
+    text-align: center;
+}
+
+.router_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833; 
+}
+
+.card_router{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+
+}
+
+.router_image{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.routerAll{
+    display: none;
+}
+.card_router:hover {
+    transform: scale(1.05);
+}
+
+.fridges{
+    font-size: 50px;
+    text-align: center;
+}
+.fridge_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+.card_fridge{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+
+.fridge_image{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.fridgeAll{
+    display: none;
+}
+.card_fridge:hover {
+    transform: scale(1.05);
+}
+
+.Mps{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Mp_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    border: 1px solid #1c2833;  
+}
+.card_Mp{
+   flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1c2833;  
+ 
+}
+
+.Mp_image{
+    height: 161px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #1c2833;
+display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.MpAll{
+    display: none;
+}
+.card_Mp:hover {
+    transform: scale(1.05);}
 
 
 
